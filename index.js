@@ -19,3 +19,13 @@ themeToggler.addEventListener('click',() =>{
     themeToggler.querySelector('span:nth-child(2)').classList.toggle('activate'); 
 
 }) 
+
+//show sidebar
+menuBtn.addEventListener('click', () => {
+    sideMenu.style.display = 'block';
+})
+
+// close sidebar
+closeBtn.addEventListener('click', () => {
+    sideMenu.style.display = 'none';
+})
